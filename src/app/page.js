@@ -4,7 +4,7 @@ import Lenis from '@studio-freight/lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import * as THREE from 'three';
-import { FloatingDock } from "@/component/floating-dock";
+// import { FloatingDock } from "@/component/floating-dock";
 
 gsap.registerPlugin(ScrollTrigger);
 
