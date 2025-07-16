@@ -111,11 +111,18 @@ export default function Page() {
 
     const textContainer = document.querySelector(".text-container");
     const letterPositions = new Map();
+    const words = ["", "", "", ""];
     path.forEach((line, i) => {
-      line.letterElements = Array.from({ length: 15 }, () => {
+      const chars = words[i].split("");
+      const total = chars.length * 2; // add blank between letters
+      line.letterElements = Array.from({ length: total }, (_, idx) => {
         const el = document.createElement("div");
         el.className = "letter";
-        el.textContent = ["W", "O", "R", "K"][i];
+        let char = "";
+        if (chars.length && idx % 2 === 0) {
+          char = chars[idx / 2] || "";
+        }
+        el.textContent = char;
         textContainer.appendChild(el);
         letterPositions.set(el, {
           current: { x: 0, y: 0 },
@@ -222,6 +229,7 @@ export default function Page() {
       <section className="intro">
         <h1>( Intro )</h1>
       </section>
+
       <section className="work">
         <div className="text-container"></div>
         <div className="cards">
@@ -242,7 +250,7 @@ export default function Page() {
           <div className="card">
             <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/oWjwktvc2VM" title="Iro Bond" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
-              <p>Iro Bond</p>
+              <p>Iron Bond</p>
               <p>621478</p>
             </div>
           </div>
@@ -276,6 +284,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+
       <section className="outro">
         <h1>( Outro )</h1>
       </section>
