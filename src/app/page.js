@@ -4,6 +4,7 @@ import Lenis from '@studio-freight/lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import * as THREE from 'three';
+import { FloatingDock } from "@/component/floating-dock";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -224,10 +225,22 @@ export default function Page() {
     };
   }, []);
 
+  // Floating dock button data
+  const dockItems = [
+    { href: "mailto:hello@devstag.com", title: "Mail", icon: null },
+    { href: "https://www.youtube.com/", title: "YouTube", icon: null },
+    { href: "https://www.instagram.com/", title: "Instagram", icon: null },
+  ];
+
   return (
     <>
       <section className="intro">
-        <h1>( Intro )</h1>
+        <div className="intro-content">
+          <img className="logo" src="/assets/logo.png" alt="Logo" />
+          <h1 className="company-name">DEVSTAG&nbsp;STUDIO</h1>
+          <p className="tagline">Crafting immersive digital experiences</p>
+        </div>
+        
       </section>
 
       <section className="work">
@@ -286,7 +299,15 @@ export default function Page() {
       </section>
 
       <section className="outro">
-        <h1>( Outro )</h1>
+        <div className="outro-content">
+          <h2 className="outro-heading">Ready to start a project?</h2>
+          <p className="outro-sub">Say hello at <a href="mailto:hello@devstag.com">hello@devstag.com</a></p>
+          
+          {/* <FloatingDock items={dockItems} /> */}
+          
+
+        </div>
+        
       </section>
     </>
   );

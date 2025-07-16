@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f40c3f;
+  background-color: #9f0cf4;
   overflow-x: hidden;
 }
 
@@ -27,20 +27,133 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f40c3f;
+  background-color: #9f0cf4;
   color: #000;
 }
 
-.intro h1,
-.outro h1 {
-  font-family: "GR NORCH";
-  font-size: 5vw;
-  font-weight: lighter;
-  text-transform: uppercase;
+.intro {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.35), 0 1px 8px 0 rgba(0,0,0,0.15);
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-image: linear-gradient(120deg, rgba(4, 4, 4, 0.22), rgba(127,60,255,0.11), rgba(0,0,0,0.09));
+  background-size: 30px;
 }
 
+.intro-content, .outro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.company-name {
+  font-family: "GR NORCH";
+  font-size: 4vw;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-family: "Akkurat Mono";
+  font-size: 1rem;
+  color: #000;
+  max-width: 400px;
+}
+
+.outro-content {
+  color: #000;
+}
+
+.outro-heading {
+  font-family: "GR NORCH";
+  font-size: 3vw;
+  margin-bottom: 0.5rem;
+}
+
+.outro-sub {
+  font-family: "Akkurat Mono";
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social {
+  font-family: "Akkurat Mono";
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  transition: all 0.3s;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.social:hover {
+  background: #fff;
+  color: #9f0cf4;
+  border-color: transparent;
+}
+
+
+
+
 .outro {
-  top: -0.125em;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.25), 0 1px 8px 0 rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  background-image: linear-gradient(135deg, rgba(159,12,244,0.12), rgba(4,4,4,0.20));
+  background-size: 30px;
+}
+
+.outro-content {
+  color: #fff;
+  text-align: center;
+  gap: 1.2rem;
+}
+
+.outro-heading {
+  font-size: 2.5vw;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.social {
+  min-width: 64px;
 }
 
 .work {
