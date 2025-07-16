@@ -226,49 +226,49 @@ export default function Page() {
         <div className="text-container"></div>
         <div className="cards">
           <div className="card">
-            <div className="card-img"><img src="./assets/img1.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/y5jTAbAfY4E" title="Eclipse Horizon" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Eclipse Horizon</p>
               <p>739284</p>
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><img src="./assets/img2.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/FU4QrgBoO8U" title="Vision Link" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Vision Link</p>
               <p>385912</p>
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><img src="./assets/img3.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/oWjwktvc2VM" title="Iro Bond" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Iro Bond</p>
               <p>621478</p>
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><img src="./assets/img4.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/RkiChK5t48U" title="Golden Case" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Golden Case</p>
               <p>839251</p>
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><img src="./assets/img5.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/90EcLpzlm5Y" title="Virtual Space" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Virtual Space</p>
               <p>456732</p>
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><img src="./assets/img6.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Xn369QC2-rI" title="Smart Vision" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Smart Vision</p>
               <p>974315</p>
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><img src="./assets/img7.jpg" alt="" /></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/FpuanQiVlkA" title="Desert Tunnel" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Desert Tunnel</p>
               <p>682943</p>
