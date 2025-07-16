@@ -242,7 +242,7 @@ export default function Page() {
           <div className="card">
             <div className="card-img"><img src="./assets/img3.jpg" alt="" /></div>
             <div className="card-copy">
-              <p>Iron Bond</p>
+              <p>Iro Bond</p>
               <p>621478</p>
             </div>
           </div>
