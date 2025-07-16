@@ -254,7 +254,7 @@ export default function Page() {
             </div>
           </div>
           <div className="card">
-            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/FU4QrgBoO8U" title="Vision Link" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
+            <div className="card-img"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Xn369QC2-rI" title="Vision Link" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
             <div className="card-copy">
               <p>Vision Link</p>
               <p>385912</p>
@@ -302,6 +302,32 @@ export default function Page() {
         <div className="outro-content">
           <h2 className="outro-heading">Ready to start a project?</h2>
           <p className="outro-sub">Say hello at <a href="mailto:hello@devstag.com">hello@devstag.com</a></p>
+          <div className="outro-social-icons">
+            <a href="mailto:hello@devstag.com" className="outro-icon" aria-label="Gmail" target="_blank" rel="noopener noreferrer">
+              {/* Gmail SVG */}
+              <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="48" rx="14" fill="white" fillOpacity="0.15"/>
+                <path d="M8 14v20a2 2 0 002 2h28a2 2 0 002-2V14a2 2 0 00-2-2H10a2 2 0 00-2 2zm32 0l-16 12L8 14" stroke="#fff" strokeWidth="2.5" strokeLinejoin="round"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/" className="outro-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              {/* Instagram SVG */}
+              <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="48" rx="14" fill="white" fillOpacity="0.15"/>
+                <rect x="14" y="14" width="20" height="20" rx="7" stroke="#fff" strokeWidth="2.5"/>
+                <circle cx="24" cy="24" r="5" stroke="#fff" strokeWidth="2.5"/>
+                <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/" className="outro-icon" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+              {/* YouTube SVG */}
+              <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="48" height="48" rx="14" fill="white" fillOpacity="0.15"/>
+                <path d="M20 18l10 6-10 6v-12z" fill="#fff"/>
+                <rect x="8" y="14" width="32" height="20" rx="7" stroke="#fff" strokeWidth="2.5"/>
+              </svg>
+            </a>
+          </div>
           
           {/* <FloatingDock items={dockItems} /> */}
           

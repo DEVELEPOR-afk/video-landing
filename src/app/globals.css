@@ -139,7 +139,36 @@ section {
 .outro-content {
   color: #fff;
   text-align: center;
-  gap: 1.2rem;
+}
+
+.outro-social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+.outro-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  box-shadow: 0 2px 12px 0 rgba(159,12,244,0.10), 0 1px 4px 0 rgba(0,0,0,0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  border: 1.5px solid rgba(255,255,255,0.18);
+  cursor: pointer;
+}
+.outro-icon:hover {
+  background: rgba(255,255,255,0.28);
+  box-shadow: 0 4px 24px 0 rgba(159,12,244,0.18), 0 2px 8px 0 rgba(0,0,0,0.12);
+  transform: translateY(-4px) scale(1.07);
 }
 
 .outro-heading {
