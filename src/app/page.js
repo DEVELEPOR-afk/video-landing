@@ -235,10 +235,14 @@ export default function Page() {
   return (
     <>
       <section className="intro">
+        {/* <img src="/LogoNoWM_White_2.png" alt="Corner Logo" className="intro-corner-logo" /> */}
         <div className="intro-content">
-          <img className="logo" src="/assets/logo.png" alt="Logo" />
-          <h1 className="company-name">DEVSTAG&nbsp;STUDIO</h1>
-          <p className="tagline">Crafting immersive digital experiences</p>
+          {/* <img className="logo" src="/assets/logo.png" alt="Logo" /> */}
+          {/* <h1 className="company-name">DEVSTAG&nbsp;STUDIO</h1> */}
+          <p className="tagline poppins">
+  <span className="outline-text-light">Step into the world of imagination in motion.</span>
+  <span className="outline-text-light">Elevate your vision with a studio where creativity meets code.</span>
+</p>
         </div>
         
       </section>
